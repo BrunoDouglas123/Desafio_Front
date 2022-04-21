@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.learn-coding {
+    background-color: #116CFF;
+    color: #FFFFFF;
+}
+
+.learn-coding * {
+    margin: 0px 10px auto;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+#cabecalho {
+    background-color: #116CFF;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#login p {
+    background-color: #FFFFFF;
+    color: #116CFF;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    padding: 10px 30px;
+    position: static;
+    width: 104px;
+    height: 39px;
+    margin-top: -10px;
+    left: 0px;
+    border-radius: 10px;
+}
+
+#cabecalho img {
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+    width: 140px;
+}
+
+#cabecalho li {
+    font-family: 'Inter';
+    display: inline;
+}
+
+#button-1 {
+    font-family: 'Inter';
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 138px;
+    top: 492px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #116CFF;
+    width: 200px;
+    height: 52px;
+    left: 100px;
+    top: 477px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+#button-2 {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 109px;
+    height: 24px;
+    left: 370px;
+    top: 492px;
+    position: absolute;
+    width: 200px;
+    height: 52px;
+    left: 324px;
+    top: 477px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.logical-thinking {
+    color: #00235C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.logical-thinking article {
+    width: 630px;
+}
+
+.discover {
+    display: flex;
+    flex-direction: column;
+}
+
+.ds {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logical-thinking p {
+    width: 561px;
+    height: 160px;
+}
+
+.preparing-your-kids {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background-color: #116CFF;
+}
+
+.preparing-your-kids article {
+    width: 570px;
+    margin-right: 38px;
+}
+
+.preparing-your-kids p {
+    width: 526px;
+    height: 120px;
+}
+
+.testimony {
+    display: flex;
+    padding: 31px;
+    margin-top: -10px;
+    color: #116CFF;
+    background-color: #FFFFFF;
+}
+
+.testimony h1 {
+    display: flex;
+    padding: 31px;
+    margin-top: -51px;
+    color: #116CFF;
+    background-color: #FFFFFF;
+}
+
+.testimony .campo1 img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 24px;
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20.66px;
+    top: 2000px;
+    
+    background: #E7F0FF;
+    border-radius: 20px;
+}
+
+.our-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background-color: #116CFF;
+
+    height: 711px;
+}
+
+.our-class h1 {
+    position: absolute;
+    left: 90px;
+    top: 2561px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+}
+
+.our-class .critic {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 1131px;
+    height: 115px;
+    left: 100px;
+    top: 2040px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.our-class .names {
+    background: #FFFFFF;
+    align-items: center;
+    position: absolute;
+    width: 1131px;
+    height: 271px;
+    left: 0px;
+    top: 115px;
+}
+
+.our-class .name-items {
+    display: flex;
+    align-content: center;
+}
+
+.our-class .aba {
+    position: absolute;
+    border-radius: 20px;
+    width: 0px;
+    height: 100px;
+    left: 0px;
+    top: 3px;
+    border: 4px solid #FF463A;
+}
+
+.ready-to-start {
+    display: flex;
+    padding: 31px;
+    color: #116CFF;
+    background-color: #FFFFFF;
+}
+
+.ready-to-start h1 {
+    color: #00235C;
+    position: absolute;
+    width: 411px;
+    height: 96px;
+    left: 520px;
+    top: 3240px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.ready-to-start #ask {
+    position: absolute;
+    display: flex;
+    width: 51px;
+    height: 111px;
+    left: 1090px;
+    top: 3600px;
+}
+
+.ready-to-start .all #flame2 {
+    position: absolute;
+    display: flex;
+    width: 35px;
+    height: 61px;
+    left: 961px;
+    top: 3290px;
+}
+
+.ready-to-start .all #flame1 {
+    position: absolute;
+    display: flex;
+    width: 53px;
+    height: 100px;
+    left: 428px;
+    top: 3211px;
+}
+
+.ready-to-start .campos {
+    position: absolute;
+    display: flex;
+    top: 3231px;
+}
+
+.ready-to-start .campo1 input {
+    position: absolute;
+    width: 394px;
+    height: 52px;
+    left: 562px;
+    top: 180px;
+    font-size: 20px;
+
+    color: #116CFF;
+    border: 1px solid #BCD6FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.ready-to-start .campo2 input {
+    position: absolute;
+    width: 394px;
+    height: 52px;
+    left: 562px;
+    top: 267px;
+    font-size: 20px;
+
+    color: #116CFF;
+    border: 1px solid #BCD6FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.ready-to-start .campo3 input {
+    position: absolute;
+    width: 394px;
+    height: 52px;
+    left: 562px;
+    top: 354px;
+    font-size: 20px;
+    
+    color: #116CFF;
+    border: 1px solid #BCD6FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.ready-to-start .campo4 input {
+    position: absolute;
+    width: 394px;
+    height: 52px;
+    left: 562px;
+    top: 437px;
+    font-size: 20px;
+    
+    color: #116CFF;
+    border: 1px solid #BCD6FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.ready-to-start #reg {
+    position: absolute;
+    display: flex;
+    width: 52px;
+    height: 50px;
+    left: 796px;
+    top: 3751px;    
+}
+
+.ready-to-start
+.names #email p {
+    position: absolute;
+    display: flex;
+    width: 51px;
+    height: 25px;
+    left: 451px;
+    top: 3404px;
+
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    text-align: center;
+
+    color: #00235C;
+}
+
+.ready-to-start
+.names #p-name p {
+    position: absolute;
+    display: flex;
+    width: 51px;
+    height: 25px;
+    left: 458px;
+    top: 3493px;
+
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    text-align: center;
+
+    color: #00235C;
+}
+
+.ready-to-start
+.names #k-name p {
+    position: absolute;
+    display: flex;
+    width: 51px;
+    height: 25px;
+    left: 478px;
+    top: 3578px;
+
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    text-align: center;
+
+    color: #00235C;
+}
+
+.ready-to-start
+.names #classe p {
+    position: absolute;
+    display: flex;
+    width: 51px;
+    height: 25px;
+    left: 461px;
+    top: 3661px;
+
+    flex-direction: row;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #00235C;
+}
+
+.ready-to-start #ask {
+    position: absolute;
+    display: flex;
+    width: 51px;
+    height: 111px;
+    left: 1090px;
+    top: 3400px;
+}
+
+.rodape {
+    background-color: #00235C;    
+    position: absolute;
+    width: 1347px;
+    height: 400px;
+    left: 0px;
+    top: 3820px;
+}
+
+.rodape img {
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 90px;
+    width: 160px;
+}
+
+.rodape #end1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.rodape #end2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.rodape .redes #insta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 90px;
+    width: 18px;
+}
+
+.rodape .redes #yout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -16px;
+    margin-left: 143px;
+    width: 21px;
+}
+
+.rodape .redes #faceb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -16px;
+    margin-left: 253px;
+    width: 21px;
+}
+
+.rodape .redes #google {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -22px;
+    margin-left: 200px;
+    width: 21px;
+}
+
+.rodape .company #com {
+    color: #116CFF;
+}
+
+.rodape .our #o-class {
+    color: #116CFF;
+}
+
+.rodape .information #info {
+    color: #116CFF;
+}
+
+.rodape .activity #act {
+    color: #116CFF;
+}
+
+.rodape .company {
+    position: static;
+    width: 86px;
+    height: 18px;
+    margin-left: 611px;
+    margin-top: -290px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 98% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+.rodape .our {
+    position: static;
+    width: 86px;
+    height: 18px;
+    margin-left: 811px;
+    margin-top: -36px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 98% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+.rodape .information {
+    position: static;
+    width: 86px;
+    height: 18px;
+    margin-left: 1020px;
+    margin-top: -38px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 98% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+.rodape .activity {
+    position: static;
+    width: 86px;
+    height: 18px;
+    margin-left: 1200px;
+    margin-top: -37px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 98% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    .logical-thinking article {
+        width: 498px;
+        text-align: center;
+    }
+
+    .logical-thinking h1 {
+        width: 483px;
+        height: 180px;
+        margin-top: 0px;
+    }
+
+    .logical-thinking p {
+        width: 483px;
+        height: 218px;
+    }
+
+    .preparing-your-kids {
+        flex-direction: column-reverse;
+    }
+
+    .preparing-your-kids article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 655px;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .preparing-your-kids h1 {
+        height: 180px;
+    }
+
+    .preparing-your-kids p {
+        margin: 0;
+        height: 202px;
+    }
+
+}
